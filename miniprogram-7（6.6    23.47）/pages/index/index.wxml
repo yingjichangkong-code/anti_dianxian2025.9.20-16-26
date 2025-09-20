@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="hero">
+    <text class="hero-title">抗癫痫报警助手 🛡️</text>
+    <text class="hero-subtitle">实时守护 · 安全相伴</text>
+    <view class="status-pill">
+      <text>{{status}}</text>
+    </view>
+  </view>
+
+  <view class="card emphasis">
+    <text class="card-title">紧急报警</text>
+    <button bindtap="triggerAlert" class="action-button emergency">
+      ⚠️ 一键报警
+    </button>
+    <text class="hint">触发后将记录位置并通知家属（模拟）</text>
+  </view>
+
+  <view class="card">
+    <text class="card-title">功能快捷</text>
+    <view class="grid">
+      <button bindtap="showECG" class="grid-item">🫀 生理信号</button>
+      <button bindtap="getUserLocation" class="grid-item">📍 被检测人位置</button>
+      <button bindtap="pairBluetooth" class="grid-item">🔗 蓝牙配对</button>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="card-title">状态与信息</text>
+    <view class="info-row">
+      <text class="info-label">蓝牙状态</text>
+      <text class="info-value">{{bluetoothStatus}}</text>
+    </view>
+    <view class="info-row">
+      <text class="info-label">当前位置</text>
+      <text class="info-value">{{locationText}}</text>
+    </view>
+  </view>
+</view>

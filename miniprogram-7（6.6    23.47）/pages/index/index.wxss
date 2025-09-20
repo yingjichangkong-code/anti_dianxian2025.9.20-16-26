@@ -1,0 +1,125 @@
+.page {
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6ea8ff 0%, #40c4ff 100%);
+  color: #fff;
+  padding: 32px 24px 60px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(64, 196, 255, 0.35);
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.status-pill {
+  margin: 12px auto 0;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.22);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card.emphasis {
+  margin-top: -36px; /* lift into hero area */
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.action-button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.action-button:active {
+  transform: scale(0.98);
+  opacity: 0.95;
+}
+
+.action-button.emergency {
+  background: linear-gradient(135deg, #ff4d4f, #ff7875);
+}
+
+.hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  width: 48%;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 8px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, #1890ff, #40c4ff);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.25);
+}
+
+.grid-item:active {
+  transform: scale(0.98);
+  opacity: 0.95;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fafafa;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-top: 10px;
+}
+
+.info-label {
+  font-size: 14px;
+  color: #666;
+}
+
+.info-value {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
